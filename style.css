@@ -156,3 +156,18 @@ p{
     color: white;
     margin-left: 10px;
 }
+#imgpi1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+#p2{
+    color: white;
+    font-size: x-large;
+    margin-left: 10px
+}
+#imgpi2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
