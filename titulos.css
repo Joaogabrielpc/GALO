@@ -106,7 +106,7 @@ nav{
     
 }
 main{
-    background-color: black;
+    background-color: blueviolet;
     grid-row-start: 10;
     grid-row-end:35; 
     grid-column-start: 13; 
