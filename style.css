@@ -96,6 +96,8 @@ background-image:url(galo.png);
     background-repeat: no-repeat;
     background-size:20%,20%;
     background-attachment:fixed;
+    height: 250vh;
+
 
         }
 .container{
@@ -170,4 +172,47 @@ p{
     display: flex;
     justify-content: center;
     margin-top: 2%;
+}
+#p3{
+    color: white;
+    font-size: x-large;
+    margin-left: 10px
+}
+#imgpi3{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+#p4{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+#imgpi4{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#imggalo{
+    background-color: black;
+    grid-row-start:60;
+    grid-row-end:110;
+    grid-column-start:1;
+    grid-column-end: 7;
+    border: 2px solid white;
+    border-radius: 5px;
+
+
+}
+#imggalo1{
+
+    margin-top: 50px;
+}
+#pgalo123{
+    text-align: center;
+    font-size: 300%;
 }
