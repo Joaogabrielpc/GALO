@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elenco</title>
-    <link rel="apple-touch-icon" href="favicon-16x16.png">
+
+    <!--link do favicon-->
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon"> 
+
     <style>
+
+        /* desing das div,imagens e textos */
         .container{
             border-radius:30px;
             text-align:center;
@@ -26,6 +31,7 @@
             
             
         }
+        /* estilização do título */
         h1{
             color: white;
             background-image: linear-gradient(to top,black,gray);
@@ -33,9 +39,9 @@
             border-radius:15px;
             text-align:center;
             width: 500px;
-            margin-left: 420px;
 
         }
+        /* estilização do fundo do site */
         body{
             background-color:gray;
         }
@@ -43,6 +49,8 @@ footer{
     color:white;
     text-align: center;
 }
+
+/* estilização do menu  */
 body{
     background-color: gray;
 }
@@ -123,12 +131,13 @@ body{
 }
 
 
-
     </style>
 </head>
 <body>
-    <div><h1>Time do Atlético Mineiro</h1></div>
+    <!-- título -->
+    <div><center><h1>Time do Atlético Mineiro</h1></center></div>
 
+    <!-- parte do script do menu -->
     <div id="menu-bar">
         <div id="menu"onclick="onClickMenu()">
             <div id="bar1" class="bar"></div>
@@ -136,6 +145,7 @@ body{
             <div id="bar3" class="bar"></div>
             
         </div>
+        <!-- links que ficam no menu -->
         <ul class="nav" id="nav">
             <li><a href="index.html">Página Inicial</a></li>
             <li><a href="titulos.html">Titúlos</a></li>
@@ -144,8 +154,19 @@ body{
         </ul>
     </div>
     <div class="menu-bg" id="menu-bg"></div>
+
+    <!-- link do script -->
     <script src="script.js"></script>
+
+    <!-- conteudo do site com nome dos jogadores e suas informações -->
+
     <div class="container">
+
+
+
+        <!-- jogadores e suas informacoes -->
+
+
         <div class="elemento">
            Cuca
            <p><img class="01" src="cuca.jpg" alt="" width="180px">Alexi Stival, mais conhecido como Cuca,é um treinador e ex-futebolista brasileiro que atuava como atacante. Atualmente comanda o Atlético Mineiro.</p>

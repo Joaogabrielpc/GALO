@@ -1,3 +1,4 @@
+/* estilização do menu */
 body{
     background-color: gray;
 }
@@ -75,6 +76,7 @@ body{
 .change{
     display: block;
 }
+/* estilização do conteudo do site */
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
@@ -83,6 +85,9 @@ body{
     padding-left: 10%;
     padding-right: 10%;
 }
+
+
+/* estilização do título */
 header{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -96,82 +101,63 @@ header{
     width:200px;
     text-align: center;
 }
-nav{
+
+/* estilização do main */
+main{
     background-color: black;
     grid-row-start: 10;
     grid-row-end:35; 
     grid-column-start: 1; 
-    grid-column-end: 9;  
+    grid-column-end: 7;
     
-    
+   
+ 
+   
 }
-main{
-    background-color: blueviolet;
-    grid-row-start: 10;
-    grid-row-end:35; 
-    grid-column-start: 13; 
-    grid-column-end: 1;
-    color: white; 
+/* estilização do texto da primeira div  */
+#a11{
+    background-color: black;
     font-size:22px; 
-}
-#imge{
-    margin-left:50px;
-    margin-top:60px;
-}
-#p1{
-    margin-top: 55px;
-    margin-right:50px;
-}
-
-
-#p0{
     color: white;
-    text-align: center;
-    font-size:x-large;
+    grid-row-start: 14;
+    grid-row-end:35; 
+    grid-column-start: 7; 
+    grid-column-end: 12;
+
 }
-#ps1{
+
+#a121{
+   
+    border-radius: 15px;
+    border: 2px solid gray;
+    margin-top:70px;
+}
+#principal{
+    background-color: black;
+    grid-row-start: 10;
+    grid-row-end:36; 
+    grid-column-start: 1; 
+    grid-column-end: 13;
+}
+
+
+/* estilização da div da libertadores */
+#imglibertadores{
+    border-radius: 15px;
+    border: 2px solid gray;
+    margin-top:40px;
+}
+#p1libertadores{
+    background-color: rgb(4, 4, 4);
+    grid-column-start:1;
+    grid-column-end: 5;
+    grid-row-start: 60;
+    grid-row-end:80;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
     color: white;
-    text-align: center;
-    font-size:x-large;
 }
-#imgp{
-    margin-left:26px;
-}
-#ps2{
-    color: white;
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 17px;
-}
-a{
-    color: gray;
-}
-#imgc{
-    margin-left:26px;
-}
-#pc1{
-    color: white;
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 17px;
-}
-#pa1{
-    color: white;
-    text-align: center;
-    font-size:x-large;
-}
-#imga{
-   margin-left: 26px;
-}
-#div1{
-    display: flex;
-    justify-content:center ;
-}
-
-
-
-
-
 section{
     background-color: black;
     grid-column-start:1;
@@ -181,6 +167,8 @@ section{
 
 }
 
+
+/* estilização da div da copa do brasil*/
 #a0{
     background-color: black;
     grid-column-start:5;
@@ -188,12 +176,56 @@ section{
     grid-row-start: 40;
     grid-row-end:80;
 }
+#imgcopa{
+    border-radius: 15px;
+    border: 2px solid gray;
+    margin-top:40px;
+}
+#p1copa{
+    background-color: rgb(4, 4, 4);
+    grid-column-start:5;
+    grid-column-end: 9;
+    grid-row-start: 60;
+    grid-row-end:80;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* estilização da div do brasileiro */
+
 #a1{
     background-color: black;
     grid-column-start:9;
     grid-column-end: 13;
     grid-row-start: 40;
     grid-row-end:80;
+}
+#imgbr{
+    border-radius: 15px;
+    border: 2px solid gray;
+    margin-top:40px;
+}
+#p1brasileirao{
+    background-color: rgb(4, 4, 4);
+    grid-column-start:9;
+    grid-column-end: 13;
+    grid-row-start: 60;
+    grid-row-end:80;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
 }
 
    
