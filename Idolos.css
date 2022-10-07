@@ -1,3 +1,4 @@
+/* estilização do menu */
 body{
     background-color: gray;
 }
@@ -75,6 +76,7 @@ body{
 .change{
     display: block;
 }
+/* estilizaçao do conteudo do site */
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
@@ -84,6 +86,8 @@ body{
     padding-right: 10%;
 }
 
+
+/* estilização do site dos idolos */
 #a1{
     background-color: black;
     color: white;
@@ -98,6 +102,11 @@ body{
     margin-top: 5px;
     justify-items: center;
 }
+#ctxt1{
+    color: white;
+    margin-left: 10PX;
+    font-size: large;
+    }
 #a2{
     background-color:black ;
     grid-row-start:8;
@@ -190,11 +199,7 @@ color: white;
 margin-left: 10PX;
 font-size: large;
 }
-#atxt1{
-color: white;
-margin-left: 10PX;
-font-size: large;
-}
+
 #atxt2{
 color: white;
 margin-left: 10PX;
@@ -210,11 +215,7 @@ color: white;
 margin-left: 10PX;
 font-size: large;
 }
-#ctxt1{
-color: white;
-margin-left: 10PX;
-font-size: large;
-}
+
 #ctxt2{
 color: white;
 margin-left: 10PX;
