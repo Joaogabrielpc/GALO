@@ -89,6 +89,8 @@ border-radius: 15px;
 border: 2px solid white;
 
 }
+
+
 /* fundo galo */
 body{
 background-image:url(imagens/galo.png);
@@ -96,9 +98,9 @@ background-color:gray;
 height:10vh;
 background-position:center,center;
 background-repeat: no-repeat;
-background-size:20%,20%;
+background-size:25%,25%;
 background-attachment:fixed;
-height: 250vh;
+
 position: absolute;
 
 
@@ -106,12 +108,20 @@ position: absolute;
         /* estilização do conteudo do site */
 .container{
     display: grid;
+
+
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+
+
     grid-template-rows: 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh  1vh  1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh  1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh 1vh  1vh 1vh 1vh 1vh 1vh ;
     grid-gap: 10px;
     padding-left: 5%;
     padding-right: 5%;
 }
+
+
+
+/* div 1 */
 #a1{
     background-color: black;
     grid-row-start:10;
@@ -120,9 +130,24 @@ position: absolute;
     grid-column-end: 3;
     border: 2px solid white;
     border-radius: 15px;
-    min-width: 100px;
+    min-width: 80px;
 
 }
+#imgpi1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+#p1{
+    color: white;
+    font-size: x-large;
+    margin-left: 10px
+}
+
+
+
+
+/* div 2 */
 #a2{
     background-color: black;
     grid-row-start:30;
@@ -131,46 +156,7 @@ position: absolute;
     grid-column-end: 3;
     border: 2px solid white;
     border-radius: 15px;
-    min-width: 100px;
-}
-#a3{
-    background-color: black;
-    grid-row-start:10;
-    grid-row-end:30;
-    grid-column-start:5;
-    grid-column-end: 7;
-    border: 2px solid white;
-    border-radius: 15px;
-    min-width: 100px;
-}
-#a4{
-    background-color: black;
-    grid-row-start:30;
-    grid-row-end:50;
-    grid-column-start:5;
-    grid-column-end: 7;
-    border: 2px solid white;
-    border-radius: 15px;
-    min-width: 100px;
-}
-
-#arena{
-    margin-top:10px;
-    margin-left: 70px;
-}
-#p1{
-    color: white;
-    font-size: x-large;
-    margin-left: 10px
-}
-p{
-    color: white;
-    margin-left: 10px;
-}
-#imgpi1{
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
+    min-width: 80px;
 }
 #p2{
     color: white;
@@ -182,6 +168,21 @@ p{
     justify-content: center;
     margin-top: 2%;
 }
+
+
+
+
+/* div 3 */
+#a3{
+    background-color: black;
+    grid-row-start:10;
+    grid-row-end:30;
+    grid-column-start:5;
+    grid-column-end: 7;
+    border: 2px solid white;
+    border-radius: 15px;
+    min-width: 80px;
+}
 #p3{
     color: white;
     font-size: x-large;
@@ -191,6 +192,22 @@ p{
     display: flex;
     justify-content: center;
     margin-top: 2%;
+}
+
+
+
+
+
+/* div 4 */
+#a4{
+    background-color: black;
+    grid-row-start:30;
+    grid-row-end:50;
+    grid-column-start:5;
+    grid-column-end: 7;
+    border: 2px solid white;
+    border-radius: 15px;
+    min-width: 80px;
 }
 #p4{
     color: white;
@@ -206,6 +223,15 @@ a{
     text-decoration: none;
     color: white;
 }
+
+
+
+
+
+
+
+/* DIV imagem grande */
+
 
 #imggalo{
     background-color: black;
@@ -225,4 +251,17 @@ a{
 #pgalo123{
     text-align: center;
     font-size: 300%;
+}
+
+
+
+/* ADICIONAIS  */
+#arena{
+    margin-top:10px;
+    margin-left: 70px;
+}
+
+p{
+    color: white;
+    margin-left: 10px;
 }
