@@ -130,7 +130,7 @@ position: absolute;
     grid-column-end: 3;
     border: 2px solid white;
     border-radius: 15px;
-    min-width: 80px;
+    min-width: 120px;
 
 }
 #imgpi1{
@@ -156,7 +156,7 @@ position: absolute;
     grid-column-end: 3;
     border: 2px solid white;
     border-radius: 15px;
-    min-width: 80px;
+    min-width: 120px;
 }
 #p2{
     color: white;
@@ -181,7 +181,7 @@ position: absolute;
     grid-column-end: 7;
     border: 2px solid white;
     border-radius: 15px;
-    min-width: 80px;
+    min-width: 120px;
 }
 #p3{
     color: white;
@@ -207,7 +207,7 @@ position: absolute;
     grid-column-end: 7;
     border: 2px solid white;
     border-radius: 15px;
-    min-width: 80px;
+    min-width: 120px;
 }
 #p4{
     color: white;
